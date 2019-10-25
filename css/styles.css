@@ -1,0 +1,37 @@
+.container {
+    display: flexbox;
+}
+
+.container .container-one {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+}
+
+.container .container-two {
+    height: 100%;
+    width: 20%;
+    margin-left: 20%;
+    position: absolute;
+}
+
+.container .container-three {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    margin-left: 40%;
+}
+
+.container .container-four {
+    height: 100%;
+    width: 20%;
+    margin-left: 60%;
+    position: absolute;
+}
+
+.container .container-five {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    margin-left: 80%;
+}
