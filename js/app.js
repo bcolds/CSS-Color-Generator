@@ -23,9 +23,9 @@ function getRandomColors() {
     return carray;
 }
 
-function setColors(colors) {
-    // Sets colors
-    
+function setColorsOnLoad(colors) {
+    // Sets colors on load.
+
     document.getElementById('containerOne').innerHTML = "<style>#containerOne { background-color: " + colors[0] + "; } </style>";
     document.getElementById('containerTwo').innerHTML = "<style>#containerTwo { background-color: " + colors[1] + "; } </style>";
     document.getElementById('containerThree').innerHTML = "<style>#containerThree { background-color: " + colors[2] + "; } </style>";
@@ -33,9 +33,20 @@ function setColors(colors) {
     document.getElementById('containerFive').innerHTML = "<style>#containerFive { background-color: " + colors[4] + "; } </style>";
 }
 
+function setColors() {
+    // Sets colors
+    var random_colors = getRandomColors();
+
+    document.getElementById('containerOne').innerHTML = "<style>#containerOne { background-color: " + random_colors[0] + "; } </style>";
+    document.getElementById('containerTwo').innerHTML = "<style>#containerTwo { background-color: " + random_colors[1] + "; } </style>";
+    document.getElementById('containerThree').innerHTML = "<style>#containerThree { background-color: " + random_colors[2] + "; } </style>";
+    document.getElementById('containerFour').innerHTML = "<style>#containerFour { background-color: " + random_colors[3] + "; } </style>";
+    document.getElementById('containerFive').innerHTML = "<style>#containerFive { background-color: " + random_colors[4] + "; } </style>";
+}
+
 // Sets colors by passing in colors.
 var colors = getRandomColors();
 
 
 // Sets inner HTML to random colours.
-setColors(colors)
+setColorsOnLoad(colors);
