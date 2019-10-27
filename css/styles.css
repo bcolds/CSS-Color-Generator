@@ -7,34 +7,34 @@
     display: flexbox;
 }
 
-.container .container-one {
+.container .wrapper-one .container-one {
     height: 85%;
     width: 19%;
     position: absolute;
 }
 
-.container .container-two {
+.container .wrapper-two .container-two {
     height: 85%;
     width: 19%;
     margin-left: 20%;
     position: absolute;
 }
 
-.container .container-three {
+.container .wrapper-three .container-three {
     height: 85%;
     width: 19%;
     position: absolute;
     margin-left: 40%;
 }
 
-.container .container-four {
+.container .wrapper-four .container-four {
     height: 85%;
     width: 19%;
     margin-left: 60%;
     position: absolute;
 }
 
-.container .container-five {
+.container .wrapper-five .container-five {
     height: 85%;
     width: 19%;
     position: absolute;
@@ -58,4 +58,35 @@
 
 .header .change-colours:hover {
     opacity: 1;
+}
+
+.container .wrapper-one .heading-one {
+    position: fixed;
+    bottom: 0;
+    margin-left: 5%;
+}
+
+.container .wrapper-two .heading-two {
+    position: fixed;
+    bottom: 0;
+    margin-left: 25%;
+}
+
+.container .wrapper-three .heading-three {
+    position: fixed;
+    bottom: 0;
+    margin-left: 45%;
+}
+
+
+.container .wrapper-four .heading-four {
+    position: fixed;
+    bottom: 0;
+    margin-left: 65%;
+}
+
+.container .wrapper-five .heading-five {
+    position: fixed;
+    bottom: 0;
+    margin-left: 85%;
 }

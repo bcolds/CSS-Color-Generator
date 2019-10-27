@@ -31,6 +31,13 @@ function setColorsOnLoad(colors) {
     document.getElementById('containerThree').innerHTML = "<style>#containerThree { background-color: " + colors[2] + "; } </style>";
     document.getElementById('containerFour').innerHTML = "<style>#containerFour { background-color: " + colors[3] + "; } </style>";
     document.getElementById('containerFive').innerHTML = "<style>#containerFive { background-color: " + colors[4] + "; } </style>";
+
+    // Sets RGB text
+    document.getElementById('headingOne').innerHTML = colors[0];
+    document.getElementById('headingTwo').innerHTML = colors[1];
+    document.getElementById('headingThree').innerHTML = colors[2];
+    document.getElementById('headingFour').innerHTML = colors[3];
+    document.getElementById('headingFive').innerHTML = colors[4];
 }
 
 function setColors() {
@@ -42,6 +49,13 @@ function setColors() {
     document.getElementById('containerThree').innerHTML = "<style>#containerThree { background-color: " + random_colors[2] + "; } </style>";
     document.getElementById('containerFour').innerHTML = "<style>#containerFour { background-color: " + random_colors[3] + "; } </style>";
     document.getElementById('containerFive').innerHTML = "<style>#containerFive { background-color: " + random_colors[4] + "; } </style>";
+
+    document.getElementById('headingOne').innerHTML = random_colors[0];
+    document.getElementById('headingTwo').innerHTML = random_colors[1];
+    document.getElementById('headingThree').innerHTML = random_colors[2];
+    document.getElementById('headingFour').innerHTML = random_colors[3];
+    document.getElementById('headingFive').innerHTML = random_colors[4];
+
 }
 
 // Sets colors by passing in colors.
