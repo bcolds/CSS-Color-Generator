@@ -3,35 +3,41 @@
 }
 
 .container .container-one {
-    height: 100%;
-    width: 20%;
+    height: 95%;
+    width: 19%;
     position: absolute;
 }
 
 .container .container-two {
-    height: 100%;
-    width: 20%;
+    height: 95%;
+    width: 19%;
     margin-left: 20%;
     position: absolute;
 }
 
 .container .container-three {
-    height: 100%;
-    width: 20%;
+    height: 95%;
+    width: 19%;
     position: absolute;
     margin-left: 40%;
 }
 
 .container .container-four {
-    height: 100%;
-    width: 20%;
+    height: 95%;
+    width: 19%;
     margin-left: 60%;
     position: absolute;
 }
 
 .container .container-five {
-    height: 100%;
-    width: 20%;
+    height: 95%;
+    width: 19%;
     position: absolute;
     margin-left: 80%;
 }
+
+.header .change-colours {
+    text-align: center;
+    margin-left: 45%;   
+}
+
