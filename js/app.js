@@ -23,23 +23,6 @@ function getRandomColors() {
     return carray;
 }
 
-function setColorsOnLoad(colors) {
-    // Sets colors on load.
-
-    document.getElementById('containerOne').innerHTML = "<style>#containerOne { background-color: " + colors[0] + "; } </style>";
-    document.getElementById('containerTwo').innerHTML = "<style>#containerTwo { background-color: " + colors[1] + "; } </style>";
-    document.getElementById('containerThree').innerHTML = "<style>#containerThree { background-color: " + colors[2] + "; } </style>";
-    document.getElementById('containerFour').innerHTML = "<style>#containerFour { background-color: " + colors[3] + "; } </style>";
-    document.getElementById('containerFive').innerHTML = "<style>#containerFive { background-color: " + colors[4] + "; } </style>";
-
-    // Sets RGB text
-    document.getElementById('headingOne').innerHTML = colors[0];
-    document.getElementById('headingTwo').innerHTML = colors[1];
-    document.getElementById('headingThree').innerHTML = colors[2];
-    document.getElementById('headingFour').innerHTML = colors[3];
-    document.getElementById('headingFive').innerHTML = colors[4];
-}
-
 function setColors() {
     // Sets colors
     var random_colors = getRandomColors();
@@ -58,9 +41,4 @@ function setColors() {
 
 }
 
-// Sets colors by passing in colors.
-var colors = getRandomColors();
-
-
-// Sets inner HTML to random colours.
-setColorsOnLoad(colors);
+setColors();
