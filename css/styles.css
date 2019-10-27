@@ -3,34 +3,34 @@
 }
 
 .container .container-one {
-    height: 95%;
+    height: 85%;
     width: 19%;
     position: absolute;
 }
 
 .container .container-two {
-    height: 95%;
+    height: 85%;
     width: 19%;
     margin-left: 20%;
     position: absolute;
 }
 
 .container .container-three {
-    height: 95%;
+    height: 85%;
     width: 19%;
     position: absolute;
     margin-left: 40%;
 }
 
 .container .container-four {
-    height: 95%;
+    height: 85%;
     width: 19%;
     margin-left: 60%;
     position: absolute;
 }
 
 .container .container-five {
-    height: 95%;
+    height: 85%;
     width: 19%;
     position: absolute;
     margin-left: 80%;
@@ -38,6 +38,19 @@
 
 .header .change-colours {
     text-align: center;
-    margin-left: 45%;   
+    margin-left: 45%;
+    margin-bottom: 1%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #39A9DB;
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
+.header .change-colours:hover {
+    opacity: 1;
+}
